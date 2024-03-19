@@ -1,0 +1,37 @@
+body {
+  background-color: #555;
+  color:#fff;
+}
+.card {
+  border: 0;
+  overflow: hidden;
+}
+
+.card-img {
+  background-size: cover;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card h5,
+.card .card-text{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.card h5 {
+  font-size: 18px;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+.card .card-text {
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  min-height: 140px;
+}
